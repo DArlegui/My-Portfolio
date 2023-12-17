@@ -1,7 +1,7 @@
-import React from 'react';
-import SectionHeading from './SectionHeading';
 import { projectsData } from '@/lib/data';
-// import { Project } from 'next/dist/build/swc';
+import React from 'react';
+import Project from './Project';
+import SectionHeading from './SectionHeading';
 
 export default function Projects() {
   return (
@@ -16,10 +16,4 @@ export default function Projects() {
       </div>
     </section>
   );
-}
-
-// type ProjectProps = (typeof projectsData)[0];
-
-function Project({ title, description, tags, imageUrl }: any) {
-  return <article></article>;
 }
