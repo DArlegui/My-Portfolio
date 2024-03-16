@@ -1,10 +1,10 @@
+import gamehubImg from '@/public/GameHub.png';
+import issueTrackerImg from '@/public/IssueTracker.png';
+import weatherImg from '@/public/WeatherApp.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import traceImg from '@/public/TraceApp.png';
-import gamehubImg from '@/public/GameHub.png';
-import weatherImg from '@/public/WeatherApp.png';
 
 export const links = [
   {
@@ -37,16 +37,14 @@ export const experiencesData = [
   {
     title: 'Graduated bootcamp',
     location: 'Miami, FL',
-    description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+    description: 'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
     icon: React.createElement(LuGraduationCap),
     date: '2019',
   },
   {
     title: 'Front-End Developer',
     location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+    description: 'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
     icon: React.createElement(CgWorkAlt),
     date: '2019 - 2021',
   },
@@ -62,46 +60,45 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Trace App',
-    description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: traceImg,
+    title: 'Issue Tracker',
+    description: 'A full-stack CRUD issue tracker project built using Next.js, NextAuth, Prisma, and various other modern technologies. Users are able to log in. ',
+    tags: ['Next.js', 'TypeScript', 'MySQL', 'Tailwind', 'Prisma', 'RadixUI'],
+    imageUrl: issueTrackerImg,
+    githubLink: 'https://github.com/DArlegui/Issue-Tracker',
   },
   {
     title: 'Weather App',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+    description: 'Developed using React and Vanilla JavaScript (each separately), this  app allows users to check the weather information for a specific location.',
+    tags: ['React', 'TypeScript', 'Tailwind', 'Vanilla JS'],
     imageUrl: weatherImg,
+    githubLink: 'https://github.com/DArlegui/Weather-App',
   },
   {
     title: 'Game Hub',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'This game discovery allows users to explore and search for games based on different platforms and genres. Many features and Utilizes RAWG API to fetch game data.',
+    tags: ['React', 'Chakra UI', 'Tailwind', 'React Query', 'RAWG API'],
     imageUrl: gamehubImg,
+    githubLink: 'https://github.com/DArlegui/Game-Hub',
   },
 ] as const;
 
 export const skillsData = [
+  'Git',
   'HTML',
   'CSS',
   'JavaScript',
   'TypeScript',
   'React',
   'Next.js',
-  'Node.js',
-  'Git',
   'Tailwind',
   'Prisma',
-  'MongoDB',
-  'Redux',
-  'GraphQL',
-  'Apollo',
-  'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
+  'RadixUI',
   'Framer Motion',
+  'Node.js',
+  'Express',
+  'MySQL Workbench',
+  'DataGrip',
+  'C++',
+  'Assembly',
 ] as const;

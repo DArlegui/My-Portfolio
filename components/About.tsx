@@ -14,21 +14,27 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about">
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{' '}
-        <span className="font-medium">full-stack web development</span>.{' '}
-        <span className="italic">My favorite part of programming</span> is the problem-solving aspect. I{' '}
-        <span className="underline">love</span> the feeling of finally figuring out a solution to a problem. My core
-        stack is <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>. I am also familiar with
-        TypeScript and Prisma. I am always looking to learn new technologies. I am currently looking for a{' '}
-        <span className="font-medium">full-time position</span> as a software developer.
+      <p className="mb-4 text-left" style={{ textIndent: '2.5rem' }}>
+        I recently graduated from Las Positas College with a degree in computer science. During my time there, I studied C++ and programming principles to build effective data
+        structures. Additionally, I completed advanced math courses, ranging from linear algebra to calculus, and statistics.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and playing
-        with my dog. I also enjoy <span className="font-medium">learning new things</span>. I am currently learning
-        about <span className="font-medium">history and philosophy</span>. I'm also learning how to play the guitar.
+      <p className="text-left mb-5" style={{ textIndent: '2.5rem' }}>
+        Following my graduation, I wanted to continue my journey in the programming industry. I was accepted into Bay Valley Tech, where I was taught front-end and back-end web
+        development. Through intensive learning, I mastered key technologies such as HTML&CSS, JavaScript, Typescript, Next.js, and MySQL. Moreover, I have hands-on experience in
+        developing and deploying advanced web applications, including projects involving API integration and full-stack CRUD applications.
+      </p>
+
+      <p className="text-left" style={{ textIndent: '2.5rem' }}>
+        Thank you for reading my story. I am confident that my combination of technical expertise and passion for learning make me a strong candidate within your team. If you are
+        interested in working with me, please feel free to contact me.
+        {/* 
+        <br />
+        <br />
+        <span className="italic"> Lorem ipsum</span>
+        <span className="font-medium"> Lorem ipsum</span>.
+        <span className="underline">Lorem ipsum</span>
+        */}
       </p>
     </motion.section>
   );
