@@ -5,6 +5,53 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
+import figmaIcon from '@/public/skill_icons/figma.png';
+import gitIcon from '../public/skill_icons/github.png';
+import jsIcon from '../public/skill_icons/javascript.png';
+import reactIcon from '../public/skill_icons/react.png';
+import tailwindIcon from '../public/skill_icons/tailwind.png';
+import typescriptIcon from '../public/skill_icons/typescript.png';
+import nextjsIcon from '../public/skill_icons/nextjs.png';
+import prismaIcon from '../public/skill_icons/prisma.png';
+import radixIcon from '../public/skill_icons/radixui.png';
+import framerIcon from '../public/skill_icons/framer.png';
+import nodeIcon from '../public/skill_icons/node.png';
+import mysqlIcon from '../public/skill_icons/mysql.png';
+import cplusplusIcon from '../public/skill_icons/cplusplus.png';
+import dgripIcon from '../public/skill_icons/datagrip.png';
+import asmIcon from '../public/skill_icons/asm.png';
+import vercelIcon from '../public/skill_icons/vercel.png';
+import psIcon from '../public/skill_icons/photoshop.png';
+
+export const skillsData = [
+  { title: 'Github', icon: gitIcon },
+  { title: 'JavaScript', icon: jsIcon },
+  { title: 'TypeScript', icon: typescriptIcon },
+  { title: 'React', icon: reactIcon },
+  { title: 'Next.js', icon: nextjsIcon },
+  // { title: 'Vercel', icon: vercelIcon },
+  { title: 'Tailwind', icon: tailwindIcon },
+  { title: 'Figma', icon: figmaIcon },
+  { title: 'Photoshop', icon: psIcon },
+  { title: 'RadixUI', icon: radixIcon },
+  { title: 'Framer', icon: framerIcon },
+  { title: 'Prisma', icon: prismaIcon },
+  { title: 'Node', icon: nodeIcon },
+  { title: 'MySQL', icon: mysqlIcon },
+  { title: 'C++', icon: cplusplusIcon },
+  // { title: 'Assembly', icon: asmIcon },
+
+  // 'Tailwind',
+  // 'Prisma',
+  // 'RadixUI',
+  // 'Framer Motion',
+  // 'Node.js',
+  // 'Express',
+  // 'MySQL Workbench',
+  // 'DataGrip',
+  // 'C++',
+  // 'Assembly',
+] as const;
 
 export const links = [
   {
@@ -81,24 +128,4 @@ export const projectsData = [
     imageUrl: gamehubImg,
     githubLink: 'https://github.com/DArlegui/Game-Hub',
   },
-] as const;
-
-export const skillsData = [
-  'Git',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Next.js',
-  'Tailwind',
-  'Prisma',
-  'RadixUI',
-  'Framer Motion',
-  'Node.js',
-  'Express',
-  'MySQL Workbench',
-  'DataGrip',
-  'C++',
-  'Assembly',
 ] as const;
