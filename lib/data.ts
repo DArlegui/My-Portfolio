@@ -40,17 +40,6 @@ export const skillsData = [
   { title: 'MySQL', icon: mysqlIcon },
   { title: 'C++', icon: cplusplusIcon },
   // { title: 'Assembly', icon: asmIcon },
-
-  // 'Tailwind',
-  // 'Prisma',
-  // 'RadixUI',
-  // 'Framer Motion',
-  // 'Node.js',
-  // 'Express',
-  // 'MySQL Workbench',
-  // 'DataGrip',
-  // 'C++',
-  // 'Assembly',
 ] as const;
 
 export const links = [
@@ -82,26 +71,25 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
-    description: 'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+    title: 'Las Positas College',
+    location: 'Livermore, CA',
+    description: 'Graduated with a degree in computer science. I was able to learn and apply various programming languages and concepts, such as C++ and Data Structures.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: '2019 - 2022',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description: 'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+    title: 'Cleanroom Technician',
+    location: 'Livermore, CA',
+    description: 'Worked as a cleanroom technician at Formfactor Inc, where I was responsible for the maintenance and production of semiconductor dies. ',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: '2020 - 2023',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: 'Bay Valley Tech Internship',
+    location: 'Modesto, CA',
+    description: "After completing Bay Valley Tech's 7-month code academy​, I was offered an internship to collaborate with a team on creating full-stack projects.",
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2024 - Present',
   },
 ] as const;
 
