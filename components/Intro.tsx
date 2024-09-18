@@ -29,7 +29,13 @@ export default function Intro() {
               type: 'spring',
               duration: 0.2,
             }}>
-            <Image src={photo} alt="My Portrait" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl sm:h-36 sm:w-36" />
+            <Image
+              src={photo}
+              alt="My Portrait"
+              quality="95"
+              priority={true}
+              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl sm:h-36 sm:w-36"
+            />
           </motion.div>
           {/* <motion.span
             className="absolute bottom-2 right-2 text-4xl"
@@ -46,9 +52,13 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1 className="mb-10 mt-4 px-5 text-2xl font-medium !leading-[1.5] sm:text-[34px]" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-        <span className="font-bold">Hi! I'm Daniel.</span> I'm a <span className="font-bold">full-stack developer</span> with <span className="font-bold"> 4 years</span> of experience. Recently, I
-        have been focusing on web app development.
+      <motion.h1
+        className="mb-10 mt-4 px-5 text-2xl font-medium !leading-[1.5] sm:text-[34px]"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}>
+        <span className="font-bold">Hi! I'm Daniel.</span> I'm a <span className="font-bold">full-stack developer</span>{' '}
+        with <span className="font-bold"> 4 years</span> of experience. Recently, I have been focusing on web app
+        development.
         {/* <span className="underline">web app development</span>. */}
       </motion.h1>
 
@@ -57,7 +67,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}>
-        <Link
+        {/* <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
@@ -65,7 +75,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}>
           Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+        </Link> */}
 
         <button
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
@@ -90,6 +100,7 @@ export default function Intro() {
           </a>
           <a
             className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950  active:scale-105 transition cursor-pointer borderBlack"
+            target="_blank"
             href={certLink}>
             <PiCertificateBold />
           </a>

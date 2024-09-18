@@ -11,7 +11,9 @@ export default function Projects() {
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <div className="flex flex-col text-center">
         <SectionHeading>My Projects</SectionHeading>
-        <p className="leading-relaxed text-gray-700 text-xs mb-4 sm:block hidden">Hover/click image for GitHub repository.</p>
+        <p className="leading-relaxed text-gray-700 text-xs mb-4 sm:block hidden">
+          Hover/click image for GitHub repository or live demo.
+        </p>
       </div>
       <div>
         {projectsData.map((project, index) => (

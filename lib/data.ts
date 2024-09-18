@@ -1,6 +1,7 @@
 import gamehubImg from '@/public/GameHub.png';
 import issueTrackerImg from '@/public/IssueTracker.png';
 import weatherImg from '@/public/WeatherApp.png';
+import mlmImg from '@/public/MLM.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
@@ -72,41 +73,46 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Las Positas College',
-    location: 'Livermore, CA',
-    description: 'Graduated with a degree in computer science. I was able to learn and apply various programming languages and concepts, such as C++ and Data Structures.',
+    location: 'Associates in Science | Livermore, CA',
+    description:
+      'Graduated with a degree in computer science. I was able to learn and apply various programming languages and concepts, such as C++ and Data Structures.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019 - 2022',
+    date: 'Aug 2019 - May 2023',
   },
   {
     title: 'Cleanroom Technician',
-    location: 'Livermore, CA',
-    description: 'Worked as a cleanroom technician at Formfactor Inc, where I was responsible for the maintenance and production of semiconductor dies. ',
+    location: 'Formfactor | Livermore, CA',
+    description:
+      'Worked as a cleanroom technician at Formfactor Inc, where I was responsible for the maintenance and production of semiconductor dies. ',
     icon: React.createElement(CgWorkAlt),
-    date: '2020 - 2023',
+    date: 'Aug 2021 - Feb 2023',
   },
   {
-    title: 'Bay Valley Tech Internship',
-    location: 'Modesto, CA',
-    description: "After completing Bay Valley Tech's 7-month code academy​, I was offered an internship to collaborate with a team on creating full-stack projects.",
+    title: 'Software Developer, Intern',
+    location: 'Workforce Development | Modesto, CA',
+    description:
+      'Gained experience in a collaborative environment, working with a team of 5 developers and enhancing my technical skills. Completed 500+ hours of hands-on coding and project management training',
     icon: React.createElement(FaReact),
-    date: '2024 - Present',
+    date: 'Apr - Aug 2024',
   },
 ] as const;
 
 export const projectsData = [
   {
     title: 'Issue Tracker',
-    description: 'A full-stack CRUD issue tracker project built using Next.js, NextAuth, Prisma, and various other modern technologies. Users are able to log in. ',
+    description:
+      'A full-stack, production-grade issue tracking app allowing users to manage issues. Built a secure dashboard with client-side validation and authentication ',
     tags: ['Next.js', 'TypeScript', 'MySQL', 'Tailwind', 'Prisma', 'RadixUI'],
     imageUrl: issueTrackerImg,
     githubLink: 'https://github.com/DArlegui/Issue-Tracker',
   },
   {
-    title: 'Weather App',
-    description: 'Developed using React and Vanilla JavaScript (each separately), this  app allows users to check the weather information for a specific location.',
+    title: 'Comm App',
+    description:
+      'A full-stack communication platform for managing servers and friends. Implemented NextAuth for secure authentication.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Vanilla JS'],
-    imageUrl: weatherImg,
-    githubLink: 'https://github.com/DArlegui/Weather-App',
+    imageUrl: mlmImg,
+    githubLink: 'https://mlm-comm-app.vercel.app/',
   },
   {
     title: 'Game Hub',
@@ -115,5 +121,13 @@ export const projectsData = [
     tags: ['React', 'Chakra UI', 'Tailwind', 'React Query', 'RAWG API'],
     imageUrl: gamehubImg,
     githubLink: 'https://github.com/DArlegui/Game-Hub',
+  },
+  {
+    title: 'Weather App',
+    description:
+      'Developed using React and Vanilla JavaScript (each separately), this  app allows users to check the weather information for a specific location.',
+    tags: ['React', 'TypeScript', 'Tailwind', 'Vanilla JS'],
+    imageUrl: weatherImg,
+    githubLink: 'https://github.com/DArlegui/Weather-App',
   },
 ] as const;
